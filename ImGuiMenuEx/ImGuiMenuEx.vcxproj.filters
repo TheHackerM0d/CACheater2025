@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\DX">
+      <UniqueIdentifier>{a854f6bb-38fd-4202-8c8c-ca5c8f800f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Important Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Important Files\Cheats">
+      <UniqueIdentifier>{db5ace74-2340-464a-9098-1b75d853b233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ImGui">
+      <UniqueIdentifier>{c18b0df9-45ac-467d-87bd-de5fa802b43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\MinHook">
+      <UniqueIdentifier>{8bf6cd8c-7f13-4ca0-8638-b3931ea3d122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Important Files\GameClass">
+      <UniqueIdentifier>{1c215230-e891-4cf0-bc25-8d56ba780b67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dx\dx9.h">
+      <Filter>Resource Files\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Important Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Important Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Important Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Info.h">
+      <Filter>Important Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\examples\imgui_impl_dx9.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\examples\imgui_impl_win32.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\examples\example_win32_directx9\custom_elements.hpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="NameSpaces.h">
+      <Filter>Important Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Important Files\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Important Files\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Important Files\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>Resource Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharModelInfoMgr.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CCursor.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameClientShell.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CharInfo.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CHUDMgr.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CHUDXML.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cILTDrawPrim.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cInterfaceMgr.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnectionMgr.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CModificationMgr.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerMGR.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerMGR_vtbl.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cSFXMgr.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeaponMGR.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeatherFX.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ITLClient.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Class_Stuffs.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Other_class.h">
+      <Filter>Important Files\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum_List.h">
+      <Filter>Important Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dx\dx9.cpp">
+      <Filter>Resource Files\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\examples\imgui_impl_dx9.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\examples\imgui_impl_win32.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\examples\example_win32_directx9\custom_elements.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>Resource Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>Resource Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>Resource Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>Resource Files\MinHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
